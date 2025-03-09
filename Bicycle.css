@@ -1,0 +1,898 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+padding: 10px 6px;
+background-color: rgb(131 131 131 / 51%);
+backdrop-filter: blur(8px);
+position: fixed;
+width: 100%;
+z-index: 100;
+top: 0;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+ul
+{
+    display: none;
+}
+.shop
+{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 4px;
+    transition: .5s all linear;
+}
+.shop:hover
+{
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: red;
+    background-color: rgb(232, 232, 232);
+}
+.shop i{
+    font-size: 25px;
+    color: white;
+}
+.bar
+{
+    display: flex;
+}
+.bar i{
+    font-size: 30px;
+}
+.img1
+{
+    background-image: url(cyclist-5507225_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.img1txt
+{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin:200px auto 0 15px;
+    text-align: center;
+}
+.new
+{
+ font-size: 30px;
+ font-weight:bold;
+}
+.kyro
+{
+    font-size: 30px;
+    font-weight: 800;
+}
+.spec
+
+{
+    font-size: 24px;
+    font-weight: 700; 
+}
+
+
+
+
+
+.buy
+{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 4px;
+    transition: .5s all linear;
+    margin-top: 40px;
+}
+.buy:hover
+{
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: red;
+    background-color: rgb(232, 232, 232);
+}
+.arrival
+{
+    margin: 70px auto;
+    text-align: center;
+}
+.arr
+{
+    font-size: 25px;
+    color: rgba(30, 30, 30, 0.862);
+}
+hr{
+    width: 200px;
+    height: 4px;
+   margin: 0 auto;
+   background-color: red;
+   border-radius: 100%;
+   margin-top: 5px;
+}
+.box
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+.img2
+{
+    width: 100px;
+height: 100px;
+margin: 0 auto;
+}
+.img2 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.img2txt
+
+{
+    text-align: center;
+
+}
+.boxhead
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.some
+{
+
+}
+.learn
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 4px;
+    transition: .5s all linear;
+    margin-top: 40px;
+}
+.learn:hover
+{
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: rgb(191, 191, 191);
+    background-color: rgb(0, 0, 0);
+}
+.cycle
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+/* .img3
+{
+    width: 300px;
+height: 300px;
+margin: 0 auto;
+
+}
+.img3 img
+{
+    width: 100%;
+    height: 100%;
+    transition: .5s all linear;
+}
+.img3 img:hover
+{
+    cursor: pointer;
+    transform: translateY(-8px) scale(1.08);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+} */
+/* book */
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #00000056;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .book h3
+  {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .book p{
+    font-size: 17px;
+    line-height: 1.25;
+    text-align: center;
+    color: #333;
+  }
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 16px #000000b8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-100deg);
+    transform: rotatey(-100deg);
+  }
+  .radius1
+  {
+    border-radius: 10px!important;
+  }
+
+
+/* book */
+/* hover style */
+
+.card {
+    margin: 0 auto;
+    position: relative;
+    width: 326px;
+    height: 250px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+/* hover style */
+
+.conatiner
+{
+    margin: 60px auto 0 auto;
+    background: url(moutain-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    color: white;
+}
+.linear
+{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02582282913165268) 3%, rgba(0, 0, 0, 0.9501925770308123) 71%); 
+    padding-top:322px;
+}
+.star
+{    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.star2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+.star3
+{    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.containerbackgruon1
+{
+    background: url(city-bike.jpg) ;
+   background-size: cover;
+   height: 600px;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.containerbackgruon2
+{
+    background: url(speciality-bike.jpg) ;
+   background-repeat:  no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.txt
+{
+    color: white;
+}
+.big
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto
+}
+
+.img4
+{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+.img4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.img4txt
+{
+ text-align: center;
+}
+.img4txt h3
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(21, 21, 21, 0.853);
+}
+
+.helmet
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    margin: 60px auto;
+}
+
+.img5
+{
+    width: 310px;
+    height: 200px;
+    margin: 0 auto;
+}
+.img5 img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: .3s all linear;
+}
+.img5 img:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.img5txt
+{
+ text-align: center;
+}
+.acc
+{
+    color: gray;
+margin: 20px auto;
+}
+.yellow
+{
+    margin: 20px auto;
+}
+.bi
+{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.no
+{
+    font-weight: 400;
+    color: gray;
+    font-size: 18px;
+}
+
+.endbackgruond
+{
+    background: url(speciality-bike.jpg) ;
+    background-repeat:  no-repeat;
+     background-attachment: fixed;
+     height: 600px;
+     position: relative;
+}
+/* .all
+{
+    width: 100%;
+    margin: 25px auto;
+    color: white;
+} */
+.center
+{
+    width: 100%;
+    margin: 250px auto;
+    color: white;
+    position: absolute;
+    /* padding: 30px; */
+    text-align: center;
+}
+.the
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+.mtb
+{
+    font-size: 25px;
+    font-weight:800;
+}
+
+.explore
+{
+font-size: 20px;
+font-weight: 400;
+background-color: red;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 5px 4px;
+transition: .5s all linear;
+margin-top: 40px;
+}
+.explore:hover
+{
+cursor: pointer;
+transform: translateY(-5px);
+color: red;
+background-color: rgb(232, 232, 232);
+}
+
+.explore1
+{
+font-size: 20px;
+font-weight: 400;
+background-color: red;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 5px 4px;
+transition: .5s all linear;
+/* margin-top: 40px; */
+/* margin: 50px auto; */
+}
+.explore1:hover
+{
+cursor: pointer;
+transform: translateY(-5px);
+color: red;
+background-color: rgb(232, 232, 232);
+}
+footer
+{
+    background-color: black;
+}
+.connect
+{display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+padding-top: 20px;
+border-bottom:2px solid gray ;
+padding: 20px;
+    /* margin: 70px auto; */
+}
+.connecttxt
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+}
+.icons
+{
+    margin: 0 auto;
+}
+.icons i
+{
+    padding-left: 20px;
+    font-size: 25px;
+    transition: .5s all linear;
+}
+.icons i:hover
+{
+cursor: pointer;
+transform: scale(1.2);
+color: red!important;
+}
+
+.endlarge
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+    color: white;
+    padding-top: 50px;
+}
+.comp
+{
+    text-align: center;
+ 
+    /* width: 400px; */
+}
+.comp h2
+{
+    font-size: 20px;
+    font-size: bold;
+
+}
+.products
+{
+    margin: 0 auto;
+}
+.pro
+{
+    text-decoration: underline;
+    text-decoration-color:white ;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    transition: .5s all linear;
+}
+.pro:hover
+{
+    cursor: pointer;
+    color: red;
+
+
+}
+.pro h2
+{
+    font-size: 20px;
+    font-size: bold;
+}
+.links
+{
+    margin: 0 auto;
+}
+.link
+{
+    text-decoration: underline;
+    text-decoration-color:white ;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    transition: .5s all linear;
+}
+.link:hover
+{
+    cursor: pointer;
+    color: red;
+
+
+}
+.link h2
+{
+    font-size: 20px;
+    font-size: bold;
+}
+
+.contacts
+{
+    margin: 0 auto;
+    text-align: center;  
+}
+.co{
+    line-height: 1.5;
+}
+.copy
+{
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width:380px) {
+
+    .linear {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.02582282913165268) 3%, rgba(0, 0, 0, 0.9501925770308123) 71%);
+        padding-top: 377px;
+    }
+}
+
+@media only screen and (min-width:400px) {
+
+    .linear {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.02582282913165268) 3%, rgba(0, 0, 0, 0.9501925770308123) 71%);
+        padding-top: 396px;
+    }
+}
+@media only screen and (min-width:450px) {
+
+    .linear {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.02582282913165268) 3%, rgba(0, 0, 0, 0.9501925770308123) 71%);
+        padding-top: 396px;
+    }
+}
+
+
+@media only screen and (min-width:510px) {
+
+    .linear {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.02582282913165268) 3%, rgba(0, 0, 0, 0.9501925770308123) 71%);
+        padding-top: 396px;
+    }
+}
+
+
+
+@media only screen and (min-width:768px) {
+   
+    .bar
+    {
+        display: flex;
+    }
+   ul
+   {
+    display: none
+   }
+    .shop
+    {
+        font-size: 20px;
+        font-weight: 400;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 4px;
+        transition: .5s all linear;
+    }
+    .shop:hover
+    {
+        cursor: pointer;
+        transform: translateY(-5px);
+        color: red;
+        background-color: rgb(232, 232, 232);
+    }
+    .shop i{
+        font-size: 25px;
+        color: white;
+        
+    }
+    .box
+    {
+        flex-direction: column;
+    }
+
+.cycle
+{
+    flex-direction:column;
+}
+.linear
+{
+    padding-top: 396px;
+}
+.big
+{
+    flex-direction:column;
+}
+.img5
+{
+    width:320px;
+}
+}
+@media only screen and (min-width:1000px) {
+
+    .logo img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+    ul li a{
+        font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+      color: rgb(0, 0, 0);
+      transition: .3s all linear;
+    }
+    ul li a:hover
+    {
+        color: red;
+        text-decoration: underline;
+        text-decoration-color: rgb(255, 77, 77) ;
+    }
+    .bar
+    {
+        display: none;
+    }
+
+    .box
+    {
+        flex-direction: row;
+    }
+    
+    .cycle
+    {
+        flex-direction: row;
+    }
+    .linear
+    {
+        padding-top: 415px;
+    }
+    .img4
+    {
+        width: 200px;
+        height: 170px;
+    }
+    .big
+    {
+        flex-direction: row;
+    }
+    .img5
+    {
+        width: 220px;
+        height: 145px;
+    }
+    .helmet
+    {
+        flex-direction: row;
+    }
+    .connect
+    {
+        flex-direction: row;
+    }
+    .endlarge
+    {
+        flex-direction: row;
+    }
+    .icons
+    {
+        margin: 0;
+    }
+    .card
+    {
+        width: 225px;
+        height: 200px;
+    }
+    .comp
+    {
+        max-width: 400px;
+    }
+}
+@media only screen and (min-width:1250px) {
+
+    .img4
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .big
+    {
+        flex-direction: row;
+    }
+    .img5
+    {
+        width: 265px;
+        height: 170px;
+    }
+    .img1txt
+    {
+        margin:320px auto 0 190px;
+    }
+    .linear
+    {
+        padding-top: 415px;
+    }
+    .endlarge
+    {
+        flex-direction: row;
+    }
+    .card
+    {
+        width: 290px;
+        height: 245px;
+    }
+}
+@media only screen and (min-width:1500px) {
+
+
+}
